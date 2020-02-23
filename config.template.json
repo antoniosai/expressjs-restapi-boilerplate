@@ -1,0 +1,13 @@
+{
+    "server": {
+        "port": 1337
+    },
+    "meta": {
+        "name": "Mock API"
+    },
+    "ratelimit": {
+        "enabled": true,
+        "timeframe": 15,
+        "max_requests": 100
+    }
+}

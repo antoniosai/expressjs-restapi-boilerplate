@@ -1,0 +1,36 @@
+{
+  "name": "expressjs-restapi-boilerplate",
+  "version": "0.1.0",
+  "description": "A Boilerplte for REST API Development with ExpressJS + MongoDB",
+  "private": true,
+  "main": "src/app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production nodemon ./src/app.js",
+    "lint": "eslint ./src",
+    "dev": "npm run lint && cross-env NODE_ENV=development node ./src/app.js"
+  },
+  "author": "SatuUntukSemu4",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bcrypt": "^4.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "express-validator": "^6.4.0",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.3",
+    "mongoose": "^5.9.2",
+    "nodemailer": "^6.4.2",
+    "serve-favicon": "^2.5.0",
+    "validator": "^12.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.17.16",
+    "cross-env": "^5.2.1",
+    "eslint": "^5.16.0"
+  }
+}
